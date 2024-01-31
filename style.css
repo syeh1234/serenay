@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.content {
+    margin: 1vh 0;
+    display: inline-block;
+    position: relative;
+}
+
+.content-img {
+    height: 98vh;
+}
+
+a {
+    position: absolute;
+    /*background-color: black;*/
+    border: solid 1px black;
+}
+
+.a-left, .a-right {
+    height: 3.1%;
+    width: 4.55%;
+}
+
+/*     
+    left: 82.5%;
+    top: 24.5%;
+    height: 3.3%;
+    width: 7.5%;
+*/
+
+.a-left {
+    left: 10.2%;
+}
+.a-right {
+    left: 85.2%;
+}
+
+.a-page-turn {
+    height: 11.9%;
+    width: 8.2%;
+    left: 77%;
+    top: 73.35%;
+    border-top-left-radius: 33%;
+    border-bottom-right-radius: 33%;
+}
